@@ -37,5 +37,4 @@ end
 
 def add_s(array)
   array.each {|str| str << "s" unless str = array[1]}
-  end
-end
+ end
