@@ -11,12 +11,8 @@ def sort_array_char_count(array)
 end
 
 def sway_elements(array)
-  temp1 = array[1]
-  temp2 = array[2]
-  array[1] = temp2
-  array[2] = temp1
-  array
-end
+  array[1], array[2], array[2], array[1]
+ end
 
 def adv_swap_elements(array, index, index_des)
   temp 1 = array[index]
