@@ -36,5 +36,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each {|str| str << "s" unless str = array[1]}
+  array.map do |element|
+    if element != array[1]
+      element + "s"
+    else 
+      element
+    end
 end
