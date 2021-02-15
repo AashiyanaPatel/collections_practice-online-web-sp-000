@@ -21,8 +21,7 @@ end
 
 def kesha_maker
   array.each do |element|
-    str[2] = "$"
-    new_array << str
+    element[2] = "$"
   end
 end
 
