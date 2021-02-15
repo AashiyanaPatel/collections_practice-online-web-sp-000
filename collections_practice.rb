@@ -15,14 +15,6 @@ def sway_elements(array)
   array
  end
 
-def adv_swap_elements(array, index, index_des)
-  temp 1 = array[index]
-  temp 2 = array[index_des]
-  array[index] = temp 2
-  array[index_des] = temp 1
-  array
-end
-
 def reverse_array
   array.reverse
 end
@@ -45,4 +37,5 @@ end
 
 def add_s(array)
   array.each {|str| str << "s" unless str = array[1]}
+end
 end
