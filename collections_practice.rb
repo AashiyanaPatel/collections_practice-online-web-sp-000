@@ -10,7 +10,7 @@ def sort_array_char_count(array)
   array.sort {|a,b| a.length <=> b.length
 end
 
-def sway_elements(array)
+def sway_elements(array, temp)
   temp 1 = array[1]
   temp 2 = array[2]
   array[1] = temp 2
