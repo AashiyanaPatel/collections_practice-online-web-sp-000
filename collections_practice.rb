@@ -25,4 +25,8 @@ def adv_swap_elements(array, index, index_des)
   array[index_des] = temp 1
   array
 end
+
+def reverse_array
+  array.reverse
+end
 end
