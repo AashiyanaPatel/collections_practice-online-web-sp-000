@@ -13,10 +13,11 @@ end
 def sway_elements(array)
   temp 1 = array[1]
   temp 2 = array[2]
-  array[1] = temp 2
+  array[1] = temp2
   array[2] = temp 1
   array
 end
 
 def adv_swap_elements(array, index, index_des)
+  temp1
 end
