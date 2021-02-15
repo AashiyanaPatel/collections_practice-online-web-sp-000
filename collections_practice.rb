@@ -11,5 +11,10 @@ def sort_array_char_count(array)
 end
 
 def sway_elements(array)
-  array[1], array[2], array [2], array[1]
+  temp 1 = array[1]
+  temp 2 = array[2]
+  array[1] = temp 2
+  array[2] = temp 1
+  array
+end
 end
